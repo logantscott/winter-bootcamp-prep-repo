@@ -1,4 +1,13 @@
-body {color:#333;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color:#333;
+max-width:800px;
+margin:auto;
+background-color: lightcyan;
+}
 
 a:hover {color:red}
 
@@ -16,6 +25,8 @@ h2 {
 
 h3 {font-size: 18px;}
 
+h2,h3 {font-style:italic;}
+
 header img {
     float:left;
     margin-right: 20px;
@@ -24,13 +35,13 @@ header h1 {
     padding-top:8px;
 }
 
-p {
+#nice {color:red;
+text-decoration:underline black;}
+
+p, aside {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.lead p {
-
-}
 
 footer {
     margin-top:18px;
@@ -41,6 +52,25 @@ footer p {
     padding:0;
     font-style: italic;
     font-size:11px;
+}
+
+li {
+    list-style:square;
+}
+
+.kitten {
+    display:inline;
+    float:left;
+    margin: 0 20px 10px 0;
+}
+
+.square {
+    background-color: green;
+    height:250px;
+    width:250px;
+    margin:10px;
+    padding:10px;
+    border: 2px dotted lightseagreen;
 }
 
 /**aside {
