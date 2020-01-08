@@ -68,9 +68,24 @@ li {
     background-color: green;
     height:250px;
     width:250px;
-    margin:10px;
+    margin:10px auto;
     padding:10px;
     border: 2px dotted lightseagreen;
+    transition: all .2s ease-in-out;
+}
+
+.square:hover {
+    width: 500px;   
+    background-color: lime;
+    cursor: pointer;
+}
+
+.square div {
+    transition: all .2s ease-in-out;
+}
+.square div:hover{
+    background-color:darkred !important;
+    color:white;
 }
 
 /**aside {
