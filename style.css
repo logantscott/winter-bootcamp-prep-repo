@@ -1,8 +1,55 @@
-body {color:black;}
+body {color:#333;}
 
 a:hover {color:red}
 
-#leftcol {
-    width:50%;
-    float:left;
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {font-size: 18px;}
+
+header img {
+    float:left;
+    margin-right: 20px;
+}
+header h1 {
+    padding-top:8px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lead p {
+
+}
+
+footer {
+    margin-top:18px;
+}
+
+footer p {
+    margin:0;
+    padding:0;
+    font-style: italic;
+    font-size:11px;
+}
+
+/**aside {
+    min-width:150px;
+    width:30%;
+    float:right;
+}
+
+div.content {
+    width:70%;
+    float:left;
+}**/
