@@ -29,7 +29,9 @@ background-color: #EEE;
 }
 
 .my-name-is {
-    font-size: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom:20px;
 }
 
 .back {
@@ -45,4 +47,8 @@ background-color: #EEE;
     font-size: 80px;
     font-family: cursive;
     /* margin-top:125px; */
+}
+
+#enternamebutton {
+
 }
